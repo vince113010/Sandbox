@@ -7,8 +7,9 @@ public class RectangularPrism extends Rectangle {
 	}
 	
 	public RectangularPrism(double width, double height, double length, String color, boolean filled) {
-		setWidth(width);
-		setHeight(height);
+		super(width, height);
+		//setWidth(width);
+		//setHeight(height);
 		setColor(color);
 		setFilled(filled);
 		this.length = length;
